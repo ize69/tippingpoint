@@ -491,15 +491,15 @@ public class scoringframe extends javax.swing.JFrame {
     public void setautonstate(){
         
         if(tempRed&&tempBlue){
-            redautonBonus=10;
-            blueautonBonus=10;
+            redautonBonus=3;
+            blueautonBonus=3;
         }
         else if(tempRed){
-            redautonBonus=20;
+            redautonBonus=6;
             blueautonBonus=0;
         }
         else if(tempBlue){
-            blueautonBonus=20;
+            blueautonBonus=6;
             redautonBonus=00;
         }
         else{
