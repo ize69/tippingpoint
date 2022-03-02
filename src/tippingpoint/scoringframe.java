@@ -66,6 +66,7 @@ public class scoringframe extends javax.swing.JFrame {
         setTitle("Tipping Point Scoring Utllity");
 
         jLabel1.setFont(new java.awt.Font("MV Boli", 0, 24)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Tipping point scoring");
 
         textField1.setName(""); // NOI18N
@@ -280,59 +281,57 @@ public class scoringframe extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel5)
-                                    .addComponent(jLabel6)
-                                    .addComponent(jLabel8)
-                                    .addComponent(jLabel7)
-                                    .addComponent(jLabel10)
-                                    .addComponent(jLabel11))
-                                .addGap(16, 16, 16)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(textField2, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(textField3, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(textField5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(textField1, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(autonRed, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(textField4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
-                                        .addComponent(textField11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel9)
-                                .addGap(423, 423, 423)))
-                        .addGap(0, 19, Short.MAX_VALUE)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel10)
+                            .addComponent(jLabel11))
+                        .addGap(16, 16, 16)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(textField7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(textField8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(textField10, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(textField6, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(autonBlue, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField9, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField12, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(41, 41, 41))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel4)
-                        .addGap(206, 206, 206))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(textField2, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(textField3, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(textField5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(textField1, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(autonRed, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(textField4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
+                                .addComponent(textField11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel9)
+                        .addGap(423, 423, 423)))
+                .addGap(19, 19, 19)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(textField7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(textField8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(textField10, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(textField6, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(autonBlue, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(textField9, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(textField12, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(41, 41, 41))
+            .addGroup(layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(163, 163, 163))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel4)
+                        .addGap(30, 30, 30)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(44, 44, 44)
+                .addGap(25, 25, 25)
                 .addComponent(jLabel1)
-                .addGap(13, 13, 13)
+                .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -382,9 +381,9 @@ public class scoringframe extends javax.swing.JFrame {
                     .addComponent(jLabel9)
                     .addComponent(autonRed, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(autonBlue, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel4)
-                .addContainerGap())
+                .addGap(15, 15, 15))
         );
 
         getAccessibleContext().setAccessibleDescription("score a match of vex Tipping point 2021-2022");
@@ -429,7 +428,10 @@ public class scoringframe extends javax.swing.JFrame {
 
     private void textField1TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField1TextValueChanged
         // TODO add your handling code here:
-        System.out.println("hey");
+        if(textField1.getText().isEmpty()){
+        textField1.setText("0");
+        textField1.setCaretPosition(1);
+        }
         calculatescroes(true);
     }//GEN-LAST:event_textField1TextValueChanged
     private void textField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField1ActionPerformed
@@ -445,7 +447,11 @@ public class scoringframe extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_textField6ActionPerformed
     private void textField6TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField6TextValueChanged
-         calculatescroes(false);
+        if(textField6.getText().isEmpty()){
+        textField6.setText("0");
+        textField6.setCaretPosition(1);
+        } 
+        calculatescroes(false);
     }//GEN-LAST:event_textField6TextValueChanged
     private void textField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField7ActionPerformed
         // TODO add your handling code here:
@@ -460,36 +466,62 @@ public class scoringframe extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_textField10ActionPerformed
     private void textField2TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField2TextValueChanged
+        if(textField2.getText().isEmpty()){
+        textField2.setText("0");
+        textField2.setCaretPosition(1);
+        }
         calculatescroes(true);
     }//GEN-LAST:event_textField2TextValueChanged
     private void textField3TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField3TextValueChanged
-      calculatescroes(true);
+        if(textField3.getText().isEmpty()){
+        textField3.setText("0");  
+        textField3.setCaretPosition(1);
+        }
+        calculatescroes(true);
     }//GEN-LAST:event_textField3TextValueChanged
     private void textField4TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField4TextValueChanged
+        if(textField4.getText().isEmpty()){
+        textField4.setText("0");
+        textField4.setCaretPosition(1);
+        }
         calculatescroes(true);
     }//GEN-LAST:event_textField4TextValueChanged
     private void textField5TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField5TextValueChanged
+        if(textField5.getText().isEmpty()){
+        textField5.setText("0");  
+        textField5.setCaretPosition(1);
+        }
         calculatescroes(true);
     }//GEN-LAST:event_textField5TextValueChanged
     private void textField7TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField7TextValueChanged
-         calculatescroes(false);
+         if(textField7.getText().isEmpty()){
+        textField7.setText("0");
+        textField7.setCaretPosition(1);
+        }
+        calculatescroes(false); 
     }//GEN-LAST:event_textField7TextValueChanged
     private void textField8TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField8TextValueChanged
-         calculatescroes(false);
+        if(textField8.getText().isEmpty()){
+        textField8.setText("0");
+        textField8.setCaretPosition(1);
+        } 
+        calculatescroes(false);
     }//GEN-LAST:event_textField8TextValueChanged
     private void textField9TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField9TextValueChanged
-         calculatescroes(false);
+         if(textField9.getText().isEmpty()){
+        textField9.setText("0");
+        textField9.setCaretPosition(1);
+        }
+        calculatescroes(false);
     }//GEN-LAST:event_textField9TextValueChanged
 
     private void textField10TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField10TextValueChanged
-        if(textField10.getText()==""){
-        textField10.setText("0");
-            
+        if(textField10.getText().isEmpty()){
+        textField10.setText("0");   
         }
         calculatescroes(false);
     }//GEN-LAST:event_textField10TextValueChanged
     public void setautonstate(){
-        
         if(tempRed&&tempBlue){
             redautonBonus=3;
             blueautonBonus=3;
@@ -500,10 +532,10 @@ public class scoringframe extends javax.swing.JFrame {
         }
         else if(tempBlue){
             blueautonBonus=6;
-            redautonBonus=00;
+            redautonBonus=0;
         }
         else{
-        redautonBonus=00;
+        redautonBonus=0;
         blueautonBonus=0;}
     }
     private void autonRedPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_autonRedPropertyChange
@@ -531,6 +563,10 @@ public class scoringframe extends javax.swing.JFrame {
     }//GEN-LAST:event_textField11ActionPerformed
 
     private void textField11TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField11TextValueChanged
+        if(textField11.getText().isEmpty()){
+        textField11.setText("0");
+        textField11.setCaretPosition(1);
+        }
         calculatescroes(true);
     }//GEN-LAST:event_textField11TextValueChanged
 
@@ -539,7 +575,11 @@ public class scoringframe extends javax.swing.JFrame {
     }//GEN-LAST:event_textField12ActionPerformed
 
     private void textField12TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textField12TextValueChanged
-      calculatescroes(false);
+        if(textField12.getText().isEmpty()){
+        textField12.setText("0");
+        textField12.setCaretPosition(1);
+        }
+        calculatescroes(false);
     }//GEN-LAST:event_textField12TextValueChanged
 
     private void textField11PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_textField11PropertyChange
@@ -614,4 +654,4 @@ public class scoringframe extends javax.swing.JFrame {
     private java.awt.TextField textField8;
     private java.awt.TextField textField9;
     // End of variables declaration//GEN-END:variables
-}
+    }
